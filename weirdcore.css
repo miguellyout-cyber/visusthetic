@@ -1,0 +1,207 @@
+*{
+    margin:0 auto;
+    text-decoration: none;
+}
+
+p{
+    font-weight: bold;
+    padding: 0px 20px;
+}
+/*** Formatação do Corpo e Links***/
+body{
+    font-family: Poppins, sans-serif;
+    background-image:url(Weirdcore\ imagens/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a:link{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:visited{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sobre:hover{
+    text-decoration: underline;
+    color:rgb(255, 255, 255)
+}
+
+.porque:hover{
+    text-decoration: underline;
+    color:rgb(255, 255, 255)
+}
+
+.doaçao:hover{
+    text-decoration: underline;
+    color:rgb(255, 255, 255)
+}
+
+/*** HEADER ***/
+
+#menu{
+    background: rgba(183, 155, 196, 0.7);
+    backdrop-filter: blur(10px); 
+    text-align: center;
+    height: 150px;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+.menus{
+    list-style-type: none;
+    display:flex;
+    gap:-2px;
+    padding-top:9px;    
+}
+
+.abas{
+    background: #987cb8;
+    height: 30px;
+    margin-top:33px;
+
+}
+
+.menus li{
+    position:relative;
+    text-align: center;
+}
+
+.menus li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgb(255, 255, 255);
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #000000;
+    border: 1px solid;
+}
+
+.classicas {
+  background: #189fee;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.modernas {
+  background: #ffecec;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.artisticas {
+  background: #cfcf9d;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.futuristas {
+  background: #fde978;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.doação{
+  background: #e47a7a;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.menus li:hover ul{
+    display: block;
+}
+
+.menus li ul li {
+     padding: 5px 10px;
+}
+
+.menus li ul li:hover{
+    background: rgb(223, 197, 235);
+    border-radius: 5px;
+}
+
+/*** CONTEÚDO ***/
+
+#Introdução{
+    margin-top:25px;
+    background:#dbaeae;
+    border-radius: 20px;
+    text-align: center;
+    width: 1200px;
+    height: 620px;
+}
+
+#Assunto{
+    margin-top:25px;
+    background: #dbaeae;
+    border-radius: 20px;
+    text-align: center;
+    width: 1200px;
+    height: 1308px;
+}
+
+#maisfotos{
+    margin-top:25px;
+    background:#dbaeae;
+    border-radius: 20px;
+    text-align: center;
+    width: 1200px;
+    height: 1380px;
+}
+
+.img{
+    height: 285px;
+    padding: 20px 50px;
+
+
+}
+
+/*** FOOTER ***/
+
+#footer{
+    text-align: justify;
+    margin-top: 40px;
+    background: rgba(197, 177, 87, 0.6);
+    backdrop-filter: blur(8px);
+}
+
+hr{
+    border:none;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 23px;
+}
+
+.linksmeus{
+    padding-top:22px;
+    display: flex;
+    gap: 5px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.contato{
+    padding-top:25px;
+    padding-left: 30px;
+    font-weight: normal;
+}

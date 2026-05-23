@@ -1,0 +1,337 @@
+*{
+    margin:0 auto;
+    text-decoration:none;
+}
+
+p{
+    padding: 0px 20px;
+}
+
+img{
+    width: 378px;
+    height: 280px;
+}
+
+/*** Formatação do Corpo e Links***/
+body{
+    font-family: Poppins, sans-serif;
+    background-image:url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a:link{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:visited{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sobre:hover{
+    text-decoration: underline;
+    color:rgb(255, 255, 255)
+}
+
+.porque:hover{
+    text-decoration: underline;
+    color:rgb(255, 255, 255)
+}
+
+.doaçao:hover{
+    text-decoration: underline;
+    color:rgb(255, 255, 255)
+}
+
+/*** HEADER ***/
+
+#menu{
+    background: rgba(120, 120, 255, 0.6);
+    backdrop-filter: blur(6px); 
+    text-align: center;
+    height: 150px;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+.menus{
+    list-style-type: none;
+    display:flex;
+    gap:-2px;
+    padding-top:9px;    
+}
+
+.abas{
+    background: #6c63ff;
+    height: 30px;
+    margin-top:33px;
+
+}
+
+.menus li{
+    position:relative;
+    text-align: center;
+}
+
+.menus li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgb(255, 255, 255);
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #000000;
+    border: 1px solid;
+}
+
+.classicas {
+  background: #189fee;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.modernas {
+  background: #ffecec;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.artisticas {
+  background: #cfcf9d;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.futuristas {
+  background: #fde978;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.doação{
+  background: #e47a7a;
+  width: 100px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.menus li:hover ul{
+    display: block;
+}
+
+.menus li ul li {
+     padding: 5px 10px;
+}
+
+.menus li ul li:hover{
+    background: rgba(120, 120, 255, 0.6);
+    border-radius: 5px;
+}
+
+/*** CONTEÚDO ***/
+
+#assunto{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 500px;
+}
+
+.introdução{
+    padding: 20px;
+}
+
+h4{
+    padding-left:280px;
+    font-size: 13px;
+}
+
+#contentfrutiger{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 580px;
+}
+
+.pergunta{
+    padding-top:20px;
+}
+
+.paragrafo1{
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+#contentvaporwave{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentY2K{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+.name{
+    padding-top:20px;
+    padding-bottom: 22px;
+}
+
+#contentneumorphism{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentglassmorphism{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentflatdesign{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentneobrutalismo{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentdreamcore{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentespaçosliminares{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentweirdcore{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentcyberpunk{
+    margin-top:25px;
+    background: #ffd6f5;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentretrofuturism{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#contentsci-fi{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 489px;
+}
+
+#atenção{
+    margin-top:25px;
+    background: #ffd6f5;
+    border-radius: 20px;
+    text-align: center;
+    width: 950px;
+    height: 120px;
+}
+
+/*** FOOTER ***/
+
+#footer{
+    text-align: justify;
+    margin-top: 40px;
+    background: rgba(255, 169, 255, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+hr{
+    border:none;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 23px;
+}
+
+.linksmeus{
+    padding-top:22px;
+    display: flex;
+    gap: 5px;
+}
+
+.copyright{
+    text-align: center;
+    font-weight: bold;
+}
+
+.contato{
+    padding-top:25px;
+    padding-left: 30px;
+}
