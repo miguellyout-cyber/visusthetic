@@ -134,7 +134,7 @@ h1{
 }
 
 .menus li ul li:hover{
-    background: rgba(185, 196, 211, 0.7);
+    background: rgb(255, 236, 152);
     border-radius: 5px;
 }
 
